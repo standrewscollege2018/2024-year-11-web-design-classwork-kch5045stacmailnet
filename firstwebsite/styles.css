@@ -1,0 +1,9 @@
+/* css = cascading style sheet */
+/* Override a tag's presets by entering its name */
+
+body {
+    background-color: chartreuse;
+}
+p {
+    color:violet
+}
