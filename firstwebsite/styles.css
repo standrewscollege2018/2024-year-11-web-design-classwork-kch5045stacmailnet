@@ -1,9 +1,63 @@
 /* css = cascading style sheet */
 /* Override a tag's presets by entering its name */
 
-body {
-    background-color: chartreuse;
+
+/* get fonts */
+@font-face {
+    /* font family is the name */
+    font-family: Charbb;
+    src: url(fonts/charbb_reg.otf);
 }
+@font-face {
+    font-family: Party;
+    src: url(fonts/PartyDayDemoRegular.ttf);
+}
+@font-face {
+    font-family: Roots;
+    src: url(fonts/THEROOTS.TTF);
+}
+
+* {
+    /* the universal selector changes all tags */
+    margin: 0px;
+    padding: 0px;
+}
+
+/* body formatting */
+body {
+    background-color: rgb(209, 246, 240);
+    font-family: Charbb;
+}
+
+/* paragraph formatting */
 p {
-    color:violet
+    color: rgb(23, 5, 54);
+    font-family: Charbb;
+    margin: 50px;
+}
+
+/* heaading 1 formatting */
+h1 {
+    color: rgb(34, 4, 43);
+    font-family: Roots;
+    padding-right: 1000px;
+    margin: 123px;
+}
+
+/* link formatting */
+a:link, a:visited {
+    color: rgb(12, 38, 94);
+    text-decoration: none;
+    margin: 213px;
+}
+a:hover {
+    color: rgb(77, 118, 175);
+    text-decoration: overline;
+}
+
+/* classes are used to style individual tags. They start with a period (.) */
+.caption {
+    color:rgb(162, 115, 45);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14pt;
 }
