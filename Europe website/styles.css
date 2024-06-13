@@ -1,0 +1,61 @@
+/* css = cascading style sheet */
+/* Override a tag's presets by entering its name */
+
+
+/* get fonts */
+@font-face {
+    font-family: Lion;
+    src: url(fonts/lion_king.ttf);
+}
+@font-face {
+    font-family: Walto;
+    src: url(fonts/waltographUI.ttf);
+}
+
+* {
+    /* the universal selector to reset all tags */
+    margin: 0px;
+    padding: 0px;
+}
+
+/* colours: SW 6803 (link), 6894 (sub), 6911 (heading),  */
+
+
+/* body formatting */
+body {
+    background-color: rgb(75, 41, 41);
+    color: rgb(238, 227, 178);
+    font-family: Helvetica, sans-serif;
+}
+
+/* paragraph formatting */
+p {
+    
+}
+
+/* heading 1 formatting */
+h1 {
+    font-family: Walto, Helvetica, sans-serif;
+    color: rgb(254, 203, 1);
+}
+
+/* heading 2 formatting */
+h2 {
+    font-family: Lion, Helvetica, sans-serif;
+    color: rgb(224, 184, 52);
+}
+
+/* link formatting */
+a:link, a:visited {
+    color: rgb(213, 226, 233);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(135, 213, 252);
+    text-decoration: underline;
+}
+
+/* classes are used to style individual tags. They start with a period (.) */
+.caption {
+    
+}
