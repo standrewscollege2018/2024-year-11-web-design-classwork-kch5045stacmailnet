@@ -18,44 +18,54 @@
     padding: 0px;
 }
 
-/* colours: SW 6803 (link), 6894 (sub), 6911 (heading),  */
-
-
 /* body formatting */
 body {
     background-color: rgb(75, 41, 41);
     color: rgb(238, 227, 178);
-    font-family: Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 10px;
+    margin-bottom: 100px;
 }
 
 /* paragraph formatting */
 p {
-    
+    margin:10px;
+    margin-left: 0px;
 }
 
 /* heading 1 formatting */
 h1 {
-    font-family: Walto, Helvetica, sans-serif;
-    color: rgb(254, 203, 1);
+    font-family: Lion, 'Times New Roman', Times, serif;
+    color: rgb(224, 164, 52);
+    font-size: 50pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* heading 2 formatting */
 h2 {
-    font-family: Lion, Helvetica, sans-serif;
-    color: rgb(224, 184, 52);
+    font-family: Lion, 'Times New Roman', Times, serif;
+    color: rgb(254, 203, 1);
+    font-size: 25pt;
+    padding-top: 20px;
 }
 
 /* link formatting */
 a:link, a:visited {
-    color: rgb(213, 226, 233);
+    color: rgb(151, 204, 233);
     text-decoration: none;
 }
 a:hover {
-    color: rgb(135, 213, 252);
+    color: rgb(216, 139, 77);
     text-decoration: underline;
 }
 
-/* classes are used to style individual tags. They start with a period (.) */
-.caption {
-    
+/* list formatting */
+li {
+    margin-left: 50px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
