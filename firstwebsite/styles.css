@@ -67,17 +67,18 @@ a:hover {
     display: grid;
     grid-template-columns: 80% 20%; 
     /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));  */
-    padding:32px;
+    padding:10px;
     margin: 10px;
+    font-size: 20px;
 }
 
 .main-content {
     background-color:red;
-    padding: 33px;
+    padding: 10px;
     margin: 10px;
     overflow: hidden;
     border: 20px dashed cornflowerblue;
-    width: 1000px;
+    /* width: 1000px; */
 }
 
 .secondary-content {
@@ -96,10 +97,11 @@ a:hover {
 .secondary-content p {
     color:blue;
     padding: 12px;
-    margin: 123px;
+    margin: 30px;
+    margin-top: 40px;
 }
 
 .main-content img {
     width: 100%;
-    height: 10000px;
+    /* height: 10000px; */
 }

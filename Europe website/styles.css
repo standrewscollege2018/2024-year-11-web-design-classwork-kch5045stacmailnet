@@ -42,6 +42,7 @@ h1 {
     font-size: 50pt;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 /* heading 2 formatting */
@@ -68,4 +69,45 @@ li {
     padding-left: 10px;
     margin-bottom: 5px;
     margin-top: 5px;
+}
+
+/* container formatting */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    margin: -10px;
+    margin-top: 15px;
+}
+
+/* card formatting */
+.card {
+    background-color: rgb(85, 52, 51);
+    border: 2px solid rgb(224, 164, 52);
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+}
+
+/* heading 2 formatting within cards */
+.card h2 {
+    padding-top: 5px;
+    text-align: center;
+}
+
+/* formatting for images within cards */
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px;
+    border: 0.5px solid rgb(224, 164, 52);
+    margin-top: 10px;
+}
+
+/* intro card formatting */
+.intro-card {
+    width: 1000px;
+    margin: auto;
+    display: inline;
+    contain-intrinsic-inline-size: 10px;
 }
